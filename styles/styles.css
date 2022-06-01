@@ -30,6 +30,7 @@ h2 {
     height: auto;  
     width: auto;
     max-height: 150px;
+    padding-top: 30px;
 }
 
 .navbar {
@@ -38,7 +39,7 @@ h2 {
 }
 
 #image-heading {
-    margin: 100px;
+    margin: auto;
     padding: 15px;
     color: white;
     display: flex;
@@ -90,9 +91,22 @@ li a {
       display: block;
       color: white;
       text-decoration: none;
+      margin: 50px;
   }
 
   #whats-on {
       display: flex;
       justify-content: space-around;
+  }
+
+  .logo {
+      height: auto;
+      width: auto;
+      max-width: 150px;
+  }
+
+  #whats-on-header {
+    background-color: #333;
+    color:white;
+    margin: 30px;
   }
