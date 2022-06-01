@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 2px;
+    padding: 2px;
+    font-size: 55px;
+    display: inline;
+    float: left;
+    background-color: #333;
+    color: white;
+    margin: 0px;
+}
+
+h2 {
+    margin: 10px;
+    font-size: 35px;
+}
+
+#skyline-header {
+    height: auto;  
+    width: auto;
+    max-height: 150px;
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+#image-heading {
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: url("../images/trinity.jpeg") black;
+    background-size: 100% 100%;
+    height: 500px;
+    width: 1100px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
