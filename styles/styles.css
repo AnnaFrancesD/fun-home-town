@@ -7,6 +7,7 @@
 body {
     font-family: 'Lato', sans-serif;
     text-align: center;
+    color: #333;
 }
 
 h1 {
@@ -33,10 +34,12 @@ h2 {
 
 .navbar {
     list-style-type: none;
+    padding-bottom: 23px;
 }
 
 #image-heading {
-    margin: auto;
+    margin: 100px;
+    padding: 15px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -70,4 +73,26 @@ li a {
 
   li a:hover {
     background-color: #111;
+  }
+
+  p {
+      width: 1100px;
+      margin: auto;
+  }
+
+  footer {
+      background-color: #333;
+      color:white;
+      text-align: left;
+  }
+
+  footer a {
+      display: block;
+      color: white;
+      text-decoration: none;
+  }
+
+  #whats-on {
+      display: flex;
+      justify-content: space-around;
   }
